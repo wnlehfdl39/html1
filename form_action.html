@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<heat>
+  <title>button 공부시간</title>
+  <meta charset="utf-8">
+</heat>
+<body>
+  <form action="http://localhost/oneclik.php" method="post">
+    <p>
+
+      <label for="id_txt">text</label>:
+      <input id="id_txt" type="text" name="id" value="아이디">
+    </p>
+
+    <p>
+      <label for="주소">password:</label>
+      <input id="password" type="password" name="pass" value="1234">
+    </p>
+
+    <p>
+
+      <label for="password">address:</label>
+       <input id="주소" type="address" name="주소" value="(ex서울">
+
+    </p>
+
+      <label>textarea: <textarea cols="35" rows="3">테스트</textarea></label>
+<p><input type="reset" value="재설정"></p>
+
+<p><input type="button" value="버튼" onclick="alert('전송중입니다.')"></p>
+    <p><input type="submit" value="전송"></p>
+  </form>
+
+textarea = 많은 내용이 들어갈때 큰 글 상자를 만들 수 있음(행 열 조절 가능)
+label = <label>제목 : 네모<label> 묶으면 제목부터 네모까지 클릭이 가능하다.
+
+</body>
+</html>

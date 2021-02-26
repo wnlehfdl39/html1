@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <title> </title>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="5">
+  <meta name="description" content="일부내용 미리보기">
+  <meta name="viewport" width="device-width" initial-scale="1.0">
+
+
+</head>
+<body>
+<form action="login.php" method="post" autocomplete="on">
+<p><input type="text" name="id" placeholder="아이디" autofocus></p>
+<p><input type="password" name="password" autocomplete="off" placeholder="비밀번호"></p>
+
+<input type="submit" value="전송">
+</form>
+
+autocomplete="on" 는 form 안에 있는 양식들을 브라우저가 기억해 놨다가 자동완성을 하는 기능
+        로그인 화면에서 예전에 입력 해서 로그인 한 아이디와 비밀번호를 기억해서 자동으로 생성시켜주는 기능<br><br>
+autofocus = 사용자가 처음 화면에 들어갔을때 자동으로 포커스를 원하는 커서에 지정하는 기능(autofocus)
+사용방법: input type="text" name="id" placeholder="아이디" autofocus 단일 태그
+
+meta name="viewport" width="device-width" initial-scale="1.0" 은
+첫번째 initial-scale="1.0"은 초기,처음의 크기를 1.0으로 하고(처음 화면에 맞게 크기를 맞추고)
+두번째 width="device-width"는 폭은 장치 너비 만큼 하고(모바일,기타 장치 폭-너비 만큼 맞추고)
+세번째 meta name="viewport"는 보임창에 보이게한다. (보임창에 잘 보이게한다.)
+</body>
+
+</html>

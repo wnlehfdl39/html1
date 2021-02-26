@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>input type 태그를 공부합시다.</title>
+  <meta chrset="utf-8">
+  <meta http-equiv="refresh" content="">
+  <meta name="viewport" width="device-width" initial-scale="1.0">
+
+</head>
+<body>
+<form action="input type.php" autocomplete="on" method="post" enctype="multipart/form-data">
+  <input type="id" name="id" placeholder="ID" pattern="[a-zA-Z]+[0-9]+" autofocus required>
+  <input type="password" name="pwd" placeholder="password" required>
+  <input type="email" name="이메일만 입력가능-모바일화면-영어키패드나옴" placeholder="E-mail">
+
+<input type="submit" value="전송">
+<input type="reset" value="재전송">
+
+  <p><input type="date" name="데이터"></p>
+  <p><input type="number" name="숫자" mim="1" max="10"></p>
+  <p><input type="time" name="시간"></p>
+  <p><input type="week" name="주"></p>
+  <p><input type="range" name="랜지이" min="0" max="15"></p>
+  <p><input type="url" name="url=모바일화면=영어키패드가 나옴"></p>
+  <p><input type="month" name="월"></p>
+  <p><input type="tel" name="전화=모바일화면=숫자키패드가 나옴"></p>
+  <p><input type="search" name="일반텍스트와 구별이 되게 하는 검색기능"></p>
+
+</form>
+
+
+<p>required = 지정한 입력란들에 필히.필수로 입력을해야 전송 가능하게함</p>
+<p>pattern = 입력할 수 있는 한글,영어,숫자 내가 원하는 패턴,방식으로 입력하게끔
+             강압적으로 지정 할 수 있음(정규표현식=프로그래밍언어) </p>
+</body>
+</html>
